@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc,char ** argv) {
   int *a,i;
-  int N=argc-1;
+  int N=argc-1; 
   a=new int[N];
   for(i=1;i<argc;i++)
     a[i-1]=atoi(argv[i]);
